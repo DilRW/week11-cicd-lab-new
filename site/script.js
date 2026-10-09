@@ -7,7 +7,7 @@ function convertCToF(celsius) {
     button.addEventListener("click", () => {
       const celsius = Number(document.getElementById("celsius").value);
       const fahrenheit = convertCToF(celsius);
-      document.getElementById("result").textContent =
+      documentgetElementById("result").textContent =
         celsius + " Celsius is " + fahrenheit + " Fahrenheit";
     });
   }
